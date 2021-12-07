@@ -17,7 +17,7 @@
 git项目到本地
 
 ```
-sudo git clone https://github.com/antlers12/CTFd_sqlibs.git
+sudo git clone https://github.com/antlers12/CTFd_sqlilabs.git
 ```
 
 下载后可以自由更改对应的配置，可以修改`Dockerfile`、`docker-compose.yml`、`start.sh`、`flag.sql`文件，如果需要更改Mysql密码，还需要到src源码下的sql-connections/db-creds.inc中修改
