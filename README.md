@@ -1,6 +1,6 @@
 # 适用于CTFd的sqlilabs动态Flag镜像生成
 
-本项目以sqlibs的Less-5题为例，容器内其他题目无法使用，你可以通过修改Dockerfile文件自行修改为其他题目。
+本项目以sqlilabs的Less-5题为例，容器内其他题目无法使用，你可以通过修改Dockerfile文件自行修改为其他题目。
 
 
 
