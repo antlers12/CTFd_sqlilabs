@@ -1,0 +1,14 @@
+version: '2'
+services:
+ web:
+# 设置生成的镜像名
+  image: sqlibs-5
+  build: .
+# 设置环境变量，用于生成动态flag
+  environment:
+   - FLAG=Antlers12
+# 设置映射端口
+  ports: 
+   - "8023:80"
+# 设置容器总是重新启动
+  restart: always
