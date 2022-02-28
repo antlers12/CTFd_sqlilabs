@@ -59,6 +59,12 @@ RUN sed -i '27 a <script type="text/javascript">window.location.href="./Less-3";
 EXPOSE 80 3306
 ```
 
+直接生成题目镜像
+
+```
+docker build . -t sqlilabs_03
+```
+
 **docker-compose.yml**
 
 ```
@@ -89,4 +95,3 @@ sudo docker-compose up -d
 ```
 sudo docker images
 ```
-
